@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Roboto', sans-serif;
+} 
+.barra-menu-principal{
+    position:absolute;  top: 0px;
+    color:white;
+    width:100%;
+    z-index: 2;
+    -webkit-box-shadow: inset 0px 200px 40px -168px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 200px 40px -168px rgba(0,0,0,1);
+box-shadow: inset 0px 200px 40px -168px rgba(0,0,0,1);
+}
+.menu-derecha{
+    float: right;
+
+}
+.menu-izquierda{
+    float: left;
+    
+}
+.menu-elemento{
+    text-decoration: none;
+    color:white;
+    font-size:  16px;
+    margin: 15px;
+	padding: 5px;
+	float: left;
+}
+.foto{
+    width:100px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.foto-perfil{
+    width:20px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#video{
+    position:absolute; top:0;
+    min-height:100%;
+    min-width:100%;
+    z-index: 1;
+}
+
+.content{
+    position:absolute; top: 210px; 
+    color:white;
+    opacity: 90%;
+    width:100%;
+    z-index: 2;
+}
+.content-left{
+    padding-left: 50px;
+    width: 600px;
+}
+
+.icono-nombre-pelicula{
+    width: 500px;
+    margin-bottom: 10px;
+}
+.content-desc{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-pelicula{
+    background-color: white;
+    color: black;
+    padding-right: 25px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    float: left; 
+    margin-right: 10px;
+}
+.btn-icono{
+    padding-left: 25px;
+}
+.btn-informacion
+{
+    background-color:rgb(102, 102, 102);
+    color:white;
+    opacity: 90%;
+}
+
+.cartelera{
+    padding-top:770px;
+    color:white;
+    padding-left: 60px;
+}
+
+.pelicula-portada{
+    width:250px;
+    height: 140px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.fila-cartelera{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.subtitulo-cartelera{
+    font-size:21px;
+    margin-bottom: 15px;
+}
+
+
